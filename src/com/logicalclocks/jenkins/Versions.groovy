@@ -1,8 +1,7 @@
 package com.logicalclocks.jenkins
 
-
-def getDummyVersion() {
+class VersionUtilities {
+  def dummyVersion() {
     return "my_dummy_version";
+  }
 }
-
-return this;
